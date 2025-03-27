@@ -19,7 +19,7 @@ header {
 }
 
 header .logo {
-    width: 20%;  /* Ajusta a largura da logo para 10% do tamanho do container */
+    width: 40%;  /* Ajusta a largura da logo para 10% do tamanho do container */
     height: auto;  /* Mantém a proporção da logo */
 }
 
