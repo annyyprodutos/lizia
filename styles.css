@@ -73,6 +73,25 @@ section {
     overflow-wrap: break-word;  /* Quebra as palavras longas para evitar o overflow */
 }
 
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de tamanho igual */
+    gap: 10px; /* Espaçamento entre as imagens */
+    width: 80%; /* Largura da galeria */
+    max-width: 1000px; /* Largura máxima para não ultrapassar */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img3 {
+    width: 100%; /* As imagens irão se ajustar à largura da célula */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas, opcional */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve nas imagens */
+    justify-content: center;
+    align-items: center;
+  }
+
 /* Estilos para o botão (cta-btn) */
 .cta-btn {
     background-color: #FF9F00;  /* Orange */
