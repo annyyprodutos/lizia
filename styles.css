@@ -85,7 +85,7 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de tamanho igual */
     gap: 10px; /* Espaçamento entre as imagens */
-    width: 1000%; /* Largura da galeria */
+    width: 100%; /* Largura da galeria */
     max-width: 1000px; /* Largura máxima para não ultrapassar */
   }
 
