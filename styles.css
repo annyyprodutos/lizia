@@ -56,12 +56,12 @@ section {
 /* Conteúdo (texto) */
 .hero-content p {
     text-align: left;  /* Alinha o texto à esquerda */
-    margin-bottom: 10%;  /* Ajusta o espaço abaixo do parágrafo */
+    margin-bottom: 2px;  /* Ajusta o espaço abaixo do parágrafo */
 }
 
 .hero-content li {
     text-align: left;  /* Alinha o texto à esquerda */
-    margin-bottom: 10%;  /* Ajusta o espaço abaixo do parágrafo */
+    margin-bottom: 5px;  /* Ajusta o espaço abaixo do parágrafo */
 }
 
 .hero-content,
@@ -90,6 +90,14 @@ section {
   }
 
   .img3 {
+    width: 100%; /* As imagens irão se ajustar à largura da célula */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas, opcional */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve nas imagens */
+  }
+
+
+  .imgfeed {
     width: 100%; /* As imagens irão se ajustar à largura da célula */
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 8px; /* Bordas arredondadas, opcional */
