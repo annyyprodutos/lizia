@@ -73,14 +73,20 @@ section {
     overflow-wrap: break-word;  /* Quebra as palavras longas para evitar o overflow */
 }
 
+.hero-banner {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Aplica bordas arredondadas à imagem */
+    display: block; /* Garante que a imagem seja exibida como bloco */
+    margin: 20px auto; /* Centraliza a imagem horizontalmente e adiciona um espaço ao redor */
+  }
+
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Cria 3 colunas de tamanho igual */
     gap: 10px; /* Espaçamento entre as imagens */
-    width: 80%; /* Largura da galeria */
+    width: 1000%; /* Largura da galeria */
     max-width: 1000px; /* Largura máxima para não ultrapassar */
-    justify-content: center;
-    align-items: center;
   }
 
   .img3 {
@@ -88,8 +94,6 @@ section {
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 8px; /* Bordas arredondadas, opcional */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve nas imagens */
-    justify-content: center;
-    align-items: center;
   }
 
 /* Estilos para o botão (cta-btn) */
