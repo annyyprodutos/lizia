@@ -104,6 +104,64 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve nas imagens */
   }
 
+
+ /*COMPRA*/
+
+ .produto-box {
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 24px;
+  max-width: 600px;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  margin: 30px auto;
+}
+
+.produto-header h3 {
+  margin: 0 0 16px;
+  font-size: 20px;
+  color: #00BCD4;
+}
+
+.preco-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 24px;
+  }
+  
+  .preco-antigo {
+    text-decoration: line-through;
+    color: #aaa;
+    font-size: 18px; /* antes: 15px */
+  }
+  
+  .tag-desconto {
+    background-color: #00BCD4;
+    color: white;
+    font-size: 16px; /* antes: 14px */
+    font-weight: 600;
+    padding: 8px 16px; /* maior padding */
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .preco-novo {
+    color: #FF9F00;
+    font-size: 26px; /* antes: 22px */
+    font-weight: bold;
+    background-color: #FF9F00;
+    color: white;
+    padding: 8px 16px; /* maior padding */
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+
+
+  
+
 /* Estilos para o botão (cta-btn) */
 .cta-btn {
     background-color: #FF9F00;  /* Orange */
