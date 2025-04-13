@@ -164,6 +164,7 @@ section {
 
 /* Estilos para o botão (cta-btn) */
 .cta-btn {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
     background-color: #FF9F00;  /* Orange */
     color: white;
     padding: 12px 24px;
