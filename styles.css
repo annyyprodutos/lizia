@@ -116,7 +116,25 @@ section {
   font-family: 'Segoe UI', Tahoma, sans-serif;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   margin: 30px auto;
+  cursor: pointer; /* Indica que é clicável */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
+
+.produto-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  .produto-box:active {
+    transform: scale(0.98);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  }
+
+.produto-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
 
 .produto-header h3 {
   margin: 0 0 16px;
@@ -164,37 +182,53 @@ section {
 
 /* Estilos para o botão (cta-btn) */
 .cta-btn {
-    font-family: 'Segoe UI', Tahoma, sans-serif;
-    background-color: #FF9F00;  /* Orange */
-    color: white;
-    padding: 12px 24px;
+    background-color: #FFA000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
     text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    display: inline-block;  /* Permite que o botão tenha o tamanho adequado */
-    margin-top: 20px;  /* Adiciona espaço acima do botão */
-}
+    display: inline-block;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .cta-btn:hover {
+    background-color: #D87E00; /* Darker orange */
+    transform: scale(1.05); /* Efeito de leve aumento */
+  }
+  
+  .cta-btn:active {
+    transform: scale(0.97); /* Efeito ao clicar */
+  }
 
-.cta-btn2 {
-    background-color: #00BCD4;  /* Orange */
-    color: white;
-    padding: 12px 24px;
+  .cta-btn2 {
+    background-color: #FFA000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
     text-decoration: none;
-    font-size: 18px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    display: inline-block;  /* Permite que o botão tenha o tamanho adequado */
-    margin-top: 20px;  /* Adiciona espaço acima do botão */
-}
-
-/* Estilo para o botão quando hover (passa o mouse) */
-.cta-btn:hover {
-    background-color: #D87E00;  /* Darker Orange */
-}
-
-
-
+    display: inline-block;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+  }
+  
+  .cta-btn2:hover {
+    background-color: #D87E00;
+    transform: scale(1.05);
+  }
+  
+  .cta-btn2:active {
+    transform: scale(0.97);
+  }
+  
 
 /* Estilo geral para a seção features */
 .features {
